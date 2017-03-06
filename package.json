@@ -1,0 +1,30 @@
+{
+  "name": "tiuapiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "daemon": "pm2 start server.js --name=apiserver",
+    "stop": "pm2 stop apiserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LapisTech/TwitterImageUploadAPIServer.git"
+  },
+  "author": "Hiroki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LapisTech/TwitterImageUploadAPIServer/issues"
+  },
+  "homepage": "https://github.com/LapisTech/TwitterImageUploadAPIServer#readme",
+  "devDependencies": {
+<<<<<<< HEAD
+    "@types/node": "^7.0.5",
+=======
+>>>>>>> origin/master
+    "pm2": "^2.4.2"
+  }
+}
